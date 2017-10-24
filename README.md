@@ -2,4 +2,4 @@ I used the "Controlling & Querying Video Objects" example to upload my own video
 
 I wanted to keep the background in the black/gray color spectrum to reflect the color of the subway environment, as well as change the ellipse color to yellow to match the color of the yellow lines on the subway platform. I also chose to enlarge the ellipse so that the user can more easily navigate along the canvas panel to control when to play or stop the video. The same general decision-making applies to elongating and shortening the canvas size which houses the ellipse so that this area doesn't distract from the video and allows for the user to gage the length and duration of the video.
 
-I found it challenging to center the area where the ellipse is so that it can be positioned directly underneath the video.
+I found it challenging to center the area where the ellipse is so that it can be positioned directly underneath and in alignment with the video.
