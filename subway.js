@@ -3,7 +3,7 @@ var playing = false;
 var completion;
 function setup() {
   createCanvas(500, 200);
-  vid = createVideo("subway.mp4");
+  vid = createVideo("Subway.mp4");
   vid.size(500, 400);
 }
 function draw() {
