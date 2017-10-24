@@ -2,14 +2,17 @@ var vid;
 var playing = false;
 var completion;
 function setup() {
-  createCanvas(500, 200);
+  createCanvas(500, 100);
   vid = createVideo("Subway.mp4");
   vid.size(500, 400);
 }
 function draw() {
-  background(70);
+  background('#222222');
   completion = vid.time() / vid.duration();
-  ellipse(completion*width, 70, 10, 30);
+  ellipse(completion*width, 50, 50, 50);
+  var c = color(255, 204, 0);
+  fill(c);
+  noStroke();
 }
 function mousePressed() {
   if (!playing) {
