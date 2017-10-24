@@ -7,7 +7,7 @@ function setup() {
   vid.size(500, 400);
 }
 function draw() {
-  background(50);
+  background(70);
   completion = vid.time() / vid.duration();
   ellipse(completion*width, 70, 10, 30);
 }
